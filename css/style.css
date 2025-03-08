@@ -7,38 +7,78 @@ body {
     margin: 0;
 }
 
-.nav {
+.main-header {
     background-color: rgb(2, 41, 99);
     overflow: auto;
     
 }
 
-.nav a {
+.main-header a {
     float: right;
     color: #ededed;
     text-align: center;
     padding: 25px 20px;
     text-decoration: none;
     font-size: 20px;
+    border: 1px solid;
 }
 
-.nav a:hover {
+.main-header a:hover {
     background-color: #3660de;
     color: black;
   }
   
-.nav a.active {
+.main-header a.active {
     color: white;
 }
 
-.nav .muka {
+.main-header .muka {
     border-radius: 50%;
     height: 47px;
     padding: 13px;
     width: 75;
     position: absolute;
     left: 5px  ;
+    border: 1px solid;
     
 }
 
+.banner-img {
+    border: 1px solid;
+    height: 500px;
+    margin: 10px ;
+    align-content: center;
+    text-align: center;
+
+}
+
+.achievement-content { 
+    border: 1px solid;
+    height: 500px;
+    margin: 10px ;
+    align-content: center;
+    text-align: center;
+    
+}
+
+.skills-content {
+    border: 1px solid;
+    height: 500px;
+    margin: 10px ;
+    align-content: center;
+    text-align: center;
+}
+
+
+.message-content {
+    border: 1px solid;
+    height: 500px;
+    margin: 10px ;
+    align-content: center;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
 
