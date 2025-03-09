@@ -3,82 +3,97 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
 
 body {
-    font-family: "Roboto", sans-serif;
-    margin: 0;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
 }
 
 .main-header {
-    background-color: rgb(2, 41, 99);
-    overflow: auto;
-    
+  background-color: rgb(2, 41, 99);
+  overflow: auto;
 }
 
 .main-header a {
-    float: right;
-    color: #ededed;
-    text-align: center;
-    padding: 25px 20px;
-    text-decoration: none;
-    font-size: 20px;
-    border: 1px solid;
+  float: right;
+  color: #ededed;
+  text-align: center;
+  padding: 25px 20px;
+  text-decoration: none;
+  font-size: 20px;
+  border: 1px solid;
 }
 
 .main-header a:hover {
-    background-color: #3660de;
-    color: black;
-  }
-  
+  background-color: #3660de;
+  color: black;
+}
+
 .main-header a.active {
-    color: white;
+  color: white;
 }
 
 .main-header .muka {
-    border-radius: 50%;
-    height: 47px;
-    padding: 13px;
-    width: 75;
-    position: absolute;
-    left: 5px  ;
-    border: 1px solid;
-    
+  border-radius: 50%;
+  height: 47px;
+  padding: 13px;
+  width: 75;
+  position: absolute;
+  left: 5px;
+  border: 1px solid;
 }
 
 .banner-img {
-    border: 1px solid;
-    height: 500px;
-    margin: 10px ;
-    align-content: center;
-    text-align: center;
-
+  border: 1px solid;
+  height: 500px;
+  margin: 10px;
+  align-content: center;
+  text-align: center;
 }
 
-.achievement-content { 
-    border: 1px solid;
-    height: 500px;
-    margin: 10px ;
-    align-content: center;
-    text-align: center;
-    
+#home {
+  margin: 10px;
+}
+
+.achievement-content {
+  border: 1px solid;
+  height: 500px;
+  margin: 10px;
+  align-content: center;
+  text-align: center;
+}
+
+#achievement {
+  margin: 10px;
 }
 
 .skills-content {
-    border: 1px solid;
-    height: 500px;
-    margin: 10px ;
-    align-content: center;
-    text-align: center;
+  border: 1px solid;
+  height: 500px;
+  margin: 10px;
+  align-content: center;
+  text-align: center;
 }
 
+#skills {
+  margin: 10px;
+}
 
 .message-content {
-    border: 1px solid;
-    height: 500px;
-    margin: 10px ;
-    align-content: center;
-    text-align: center;
+  border: 1px solid;
+  height: 500px;
+  margin: 10px;
+  align-content: center;
+  text-align: center;
+}
+
+#message-me {
+  margin: 10px;
 }
 
 footer {
-    text-align: center;
+  text-align: center;
+  background-color: rgb(2, 41, 99);
+  color: #ededed;
+  align-content: center;
+  
 }
 
