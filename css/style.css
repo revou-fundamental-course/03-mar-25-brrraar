@@ -73,37 +73,36 @@ body {
   color: #90e0ef;
 }
 
-/* Main Section */
+
 main {
   text-align: center;
   margin-top: 30px;
   font-family: 'Poppins', sans-serif;
 }
 
-/* Heading Style */
+
 h1 {
   color:#365b85;
   font-size: 2.5em;
 }
 
-/* Paragraph */
+
 p {
   font-size: 1.2em;
-  color: #0084ff; /* Warna gelap agar terlihat */
+  color: #0084ff; 
   width: 70%;
-  margin: 10px auto; /* Agar rata tengah */
-  line-height: 1.6; /* Menambah keterbacaan */
+  margin: 10px auto; 
+  line-height: 1.6; 
 }
 
 .k1{
   font-size: 1.2em;
-  color: #ffffff; /* Warna gelap agar terlihat */
+  color: #ffffff; 
   width: 70%;
-  margin: 10px auto; /* Agar rata tengah */
-  line-height: 1.6; /* Menambah keterbacaan */
+  margin: 10px auto; 
+  line-height: 1.6; 
 }
 
-/* Button Styling */
 #changeName {
   margin-top: 20px;
   background-color: #0077b6;
@@ -200,24 +199,22 @@ p {
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-
-/* Gaya untuk bagian Achievement */
 #achievement {
   text-align: center;
   padding: 40px 20px;
-  background-color: #e3f2fd; /* Biru muda */
+  background-color: #e3f2fd; 
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 #achievement h1 {
-  color: #1565c0; /* Biru gelap */
+  color: #1565c0;
   font-size: 2em;
   margin-bottom: 10px;
 }
 
 #achievement p {
-  color: #1e88e5; /* Biru lebih terang */
+  color: #1e88e5; 
   font-size: 1.2em;
   margin-bottom: 20px;
 }
@@ -253,7 +250,7 @@ p {
 .achievement-gallery figcaption {
   margin-top: 10px;
   font-size: 1em;
-  color: #0d47a1; /* Biru gelap */
+  color: #0d47a1; 
   font-weight: bold;
 }
 
@@ -268,7 +265,7 @@ p {
   border-radius: 5px;
 }
 
-/* Skills Section */
+
 #skills {
   text-align: center;
   background-color: #e0f2ff;
@@ -314,7 +311,7 @@ p {
 .skills-content {
   margin-top: 30px;
   padding: 20px;
-  background-color: #bbdefb; /* Warna biru lembut */
+  background-color: #bbdefb; 
   border-left: 5px solid #0d47a1;
   font-size: 1.1em;
   line-height: 1.6;
@@ -361,8 +358,8 @@ color: rgb(255, 255, 255);
 
 .banner {
   width: 100%;
-  max-width: 1200px; /* Perlebar banner */
-  height: 500px; /* Ukuran tetap */
+  max-width: 1200px; 
+  height: 500px; 
   overflow: hidden;
   position: relative;
   border-radius: 10px;
@@ -418,8 +415,8 @@ color: rgb(255, 255, 255);
   align-items: flex-start;
   gap: 20px;
   padding: 20px;
-  border: 2px solid #ffffff; /* Warna biru gelap */
-  background-color: #e3f2fd; /* Biru muda */
+  border: 2px solid #ffffff;
+  background-color: #e3f2fd; 
   box-shadow: 0 4px 8px rgba(0, 110, 255, 0.2);
 }
 
@@ -428,7 +425,7 @@ form {
   flex-direction: column;
   width: 45%;
   gap: 10px;
-  background-color: #ffffff; /* Putih */
+  background-color: #ffffff; 
   padding: 15px;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(255, 255, 255, 0.2);
@@ -437,7 +434,7 @@ form {
 input, select, textarea, button {
   width: 100%;
   padding: 10px;
-  border: 2px solid #95a0ff; /* Warna biru gelap */
+  border: 2px solid #95a0ff; 
   border-radius: 5px;
   font-size: 16px;
   height: 42px;
@@ -461,7 +458,7 @@ textarea {
 }
 
 button {
-  background-color: #004aad; /* Biru gelap */
+  background-color: #004aad; 
   color: white;
   cursor: pointer;
   font-size: 16px;
@@ -474,7 +471,7 @@ button {
 }
 
 button:hover {
-  background-color: #3660de; /* Biru lebih cerah */
+  background-color: #3660de; 
   transform: scale(1.05);
 }
 
@@ -509,7 +506,7 @@ button:hover {
 }
 
 .k4 {
-  color: #1e88e5; /* Biru lebih terang */
+  color: #1e88e5;
   font-size: 1.2em;
   margin-bottom: 20px;
 }
