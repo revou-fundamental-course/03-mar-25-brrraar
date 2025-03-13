@@ -1,5 +1,5 @@
 /* ini file JS */
-/*ss*/
+
 /* Ganti Nama*/
 function gantinama() {
     let Nama = prompt("Halo, Siapa namamu?", ""); 
