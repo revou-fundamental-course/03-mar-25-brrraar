@@ -1,99 +1,516 @@
-/* ini file css */
-
+/* css */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   font-family: "Roboto", sans-serif;
   margin: 0;
 }
 
-.main-header {
-  background-color: rgb(2, 41, 99);
-  overflow: auto;
+/*Navbar menu*/
+.menu {
+  display: flex;
+  gap: 20px;
 }
 
-.main-header a {
-  float: right;
-  color: #ededed;
-  text-align: center;
-  padding: 25px 20px;
+.header-wrapper a {
+  border: solid 1px rgb(255, 255, 255);
   text-decoration: none;
-  font-size: 20px;
-  border: 1px solid;
+  width: 120px;
+  height: 40px;
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+
 }
 
-.main-header a:hover {
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(19, 79, 168);
+  padding: 15px 30px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Profile Image */
+.profile {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 3px solid white;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Navigation Menu */
+.menu {
+  display: flex;
+  gap: 20px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+.menu a:hover {
+  color: #90e0ef;
+}
+
+/* Main Section */
+main {
+  text-align: center;
+  margin-top: 30px;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Heading Style */
+h1 {
+  color:#365b85;
+  font-size: 2.5em;
+}
+
+/* Paragraph */
+p {
+  font-size: 1.2em;
+  color: #0084ff; /* Warna gelap agar terlihat */
+  width: 70%;
+  margin: 10px auto; /* Agar rata tengah */
+  line-height: 1.6; /* Menambah keterbacaan */
+}
+
+.k1{
+  font-size: 1.2em;
+  color: #ffffff; /* Warna gelap agar terlihat */
+  width: 70%;
+  margin: 10px auto; /* Agar rata tengah */
+  line-height: 1.6; /* Menambah keterbacaan */
+}
+
+/* Button Styling */
+#changeName {
+  margin-top: 20px;
+  background-color: #0077b6;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#changeName:hover {
+  background-color: #023e8a;
+}
+
+.header-wrapper a:hover {
   background-color: #3660de;
-  color: black;
-}
-
-.main-header a.active {
   color: white;
 }
 
-.main-header .muka {
-  border-radius: 50%;
-  height: 47px;
-  padding: 13px;
-  width: 75;
-  position: absolute;
-  left: 5px;
-  border: 1px solid;
-}
+/* Responsive */
+@media only screen and (max-width: 768px) {
+  .header-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
 
-.banner-img {
-  border: 1px solid;
+  .menu {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .menu a {
+    width: 100%;
+  }
+  
+  .profile {
+    margin-bottom: 14px;
+
+  }
+  textarea {
+    height: 42px;
+    min-height: 42px; 
+    max-height: 42px; 
+}}
+
+.banner-img{
   height: 500px;
-  margin: 10px;
   align-content: center;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border:solid 1px black;
+  margin: 10px;
 }
 
-#home {
-  margin: 10px;
+.banner-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  background-color: #9dc8ff;
+}
+
+.banner {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.5s ease-in-out;
+}
+
+.banner img:hover {
+  transform: scale(1.05);
+}
+
+.banner-description {
+  background-color: #0077b6;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 1.2em;
+  border-radius: 10px;
+  margin: 20px auto;
+  width: 80%;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Gaya untuk bagian Achievement */
+#achievement {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #e3f2fd; /* Biru muda */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#achievement h1 {
+  color: #1565c0; /* Biru gelap */
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+#achievement p {
+  color: #1e88e5; /* Biru lebih terang */
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.achievement-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.achievement-gallery figure {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  width: 280px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.achievement-gallery figure:hover {
+  transform: scale(1.05);
+}
+
+.achievement-gallery img {
+  width: 100%;
+  border-radius: 8px;
+  height: auto;
+}
+
+.achievement-gallery figcaption {
+  margin-top: 10px;
+  font-size: 1em;
+  color: #0d47a1; /* Biru gelap */
+  font-weight: bold;
 }
 
 .achievement-content {
-  border: 1px solid;
-  height: 500px;
-  margin: 10px;
-  align-content: center;
-  text-align: center;
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #bbdefb; 
+  border-left: 5px solid #0d47a1;
+  font-size: 1.1em;
+  line-height: 1.6;
+  color: #0d47a1;
+  border-radius: 5px;
 }
 
-#achievement {
-  margin: 10px;
+/* Skills Section */
+#skills {
+  text-align: center;
+  background-color: #e0f2ff;
+  padding: 40px 20px;
+  border-radius: 15px;
+  margin-top: 30px;
+}
+
+.skills-gallery {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.skills-gallery figure {
+  text-align: center;
+  max-width: 250px;
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 87, 146, 0.3);
+  transition: transform 0.3s;
+}
+
+.skills-gallery figure:hover {
+  transform: scale(1.05);
+}
+
+.skills-gallery img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.skills-gallery figcaption {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #005792;
 }
 
 .skills-content {
-  border: 1px solid;
-  height: 500px;
-  margin: 10px;
-  align-content: center;
-  text-align: center;
-}
-
-#skills {
-  margin: 10px;
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #bbdefb; /* Warna biru lembut */
+  border-left: 5px solid #0d47a1;
+  font-size: 1.1em;
+  line-height: 1.6;
+  color: #0d47a1;
+  border-radius: 5px;
+  
 }
 
 .message-content {
-  border: 1px solid;
   height: 500px;
-  margin: 10px;
   align-content: center;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border:solid 1px black;
+  margin: 10px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background-color: rgb(19, 79, 168);
+  color: rgb(0, 0, 0); 
+  padding: 10px;
+}
+
+.k3 {
+color: rgb(255, 255, 255);
+}
+
+.img-slideshow {
+  height: 100%; 
+  width: 60%;
+  
+}
+
+/* Autoslide */
+.banner-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.banner {
+  width: 100%;
+  max-width: 1200px; /* Perlebar banner */
+  height: 500px; /* Ukuran tetap */
+  overflow: hidden;
+  position: relative;
+  border-radius: 10px;
+}
+
+.slide {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.slide.active {
+  opacity: 1; 
+}
+
+.achievement-gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.achievement-gallery figure {
+  text-align: center;
+  max-width: 300px;
+}
+
+.achievement-gallery img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.achievement-gallery img:hover {
+  transform: scale(1.05);
+}
+
+.achievement-gallery figcaption {
+  margin-top: 8px;
+  font-style: italic;
+  color: #555;
+  font-size: 14px;
+}
+
+.message-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 20px;
+  border: 2px solid #ffffff; /* Warna biru gelap */
+  background-color: #e3f2fd; /* Biru muda */
+  box-shadow: 0 4px 8px rgba(0, 110, 255, 0.2);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  gap: 10px;
+  background-color: #ffffff; /* Putih */
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(255, 255, 255, 0.2);
+}
+
+input, select, textarea, button {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #95a0ff; /* Warna biru gelap */
+  border-radius: 5px;
+  font-size: 16px;
+  height: 42px;
+  box-sizing: border-box;
+  transition: 0.3s ease-in-out;
+}
+
+input:focus, select:focus, textarea:focus {
+  border-color: #3660de;
+  box-shadow: 0 0 5px rgba(54, 96, 222, 0.5);
+  outline: none;
+}
+
+textarea {
+  height: 42px;
+  min-height: 42px;
+  resize: none;
+  overflow-y: auto;
+  overflow-x: hidden;
+  display: block;
+}
+
+button {
+  background-color: #004aad; /* Biru gelap */
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  border: none;
+  line-height: 1.2;
+  border-radius: 5px;
+  transition: background 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #3660de; /* Biru lebih cerah */
+  transform: scale(1.05);
+}
+
+.message-display {
+  width: 45%;
+  border: 2px solid #3f6699;
+  background-color: #ffffff;
+  padding: 10px;
+  min-height: 150px;
+  overflow-y: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 74, 173, 0.2);
 }
 
 #message-me {
-  margin: 10px;
+  background-color: #bed8ff;
+  padding: 40px 20px;
+  margin-top: 30px;
+  text-align: center;
 }
 
-footer {
-  text-align: center;
-  background-color: rgb(2, 41, 99);
-  color: #ededed;
-  align-content: center;
-  
+#message-me .message-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#message-me h1 {
+  font-size: 2em;
+  color: #1565c0;
+  margin-bottom: 20x;
+}
+
+.k4 {
+  color: #1e88e5; /* Biru lebih terang */
+  font-size: 1.2em;
+  margin-bottom: 20px;
 }
 
